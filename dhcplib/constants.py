@@ -275,7 +275,7 @@ DHCP_OPTIONS_TYPES = {
     141: "Unassigned", 142: "Unassigned", 143: "Unassigned", 144: "Unassigned",
     145: "Unassigned", 146: "Unassigned", 147: "Unassigned", 148: "Unassigned",
     149: "Unassigned",
-    150: "Unassigned", #TFTP server address
+    150: TYPE_IPV4, #TFTP server address
     151: "Unassigned", 152: "Unassigned", 153: "Unassigned", 154: "Unassigned",
     155: "Unassigned", 156: "Unassigned", 157: "Unassigned", 158: "Unassigned",
     159: "Unassigned", 160: "Unassigned", 161: "Unassigned", 162: "Unassigned",
@@ -457,6 +457,7 @@ DHCP_OPTIONS = {
     'capwap_ac_v4': 138,
     'ipv4_mos': 139,
     'fqdn_mos': 140,
+    'tftp_server_address': 150,
     #hole
     'ipxe_test': 175,
     #hole
